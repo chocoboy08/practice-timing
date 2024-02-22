@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+        let button = document.getElementById("btn");
+        const start=()=>{
+            const hour = new Date().getHours();
+        const minute = new Date().getMinutes();
+        const second = new Date().getSeconds();
+        const milisecond = new Date().getMilliseconds();
+            alert(`${hour}시${minute}분${second}초${milisecond}`);
+            console.log("작동;");
+        
+        }</script>
+</head>
+<body>
+    <button onclick="start()" id="btn">수강신청하기</button>
+</body>
+</html>
